@@ -1,0 +1,7 @@
+$schema: "https://moonrepo.dev/schemas/tasks.json"
+
+tasks:
+  g-cmp:
+    title: Generate component
+    description: Generate a component
+    command: echo generate component
