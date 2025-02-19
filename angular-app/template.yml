@@ -1,0 +1,13 @@
+$schema: "https://moonrepo.dev/schemas/template.json"
+
+extends: ["configs"]
+id: angular-app
+title: Angular App
+description: Angular app template
+destination: angular/[name]
+variables:
+  name:
+    type: "string"
+    default: ""
+    required: true
+    prompt: "Application name?"
